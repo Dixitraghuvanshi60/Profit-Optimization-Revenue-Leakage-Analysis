@@ -1,76 +1,94 @@
-🔎 Project Overview
+# 📌 Profit Optimization & Revenue Leakage Analysis
 
+## 🔎 Project Overview
 This project analyzes retail transactional data to identify profit erosion drivers and revenue leakage patterns across regions and product categories.
 
-The objective was to move beyond basic reporting and uncover margin inefficiencies impacting overall profitability.
+The objective was to move beyond basic reporting and uncover margin inefficiencies impacting overall business profitability.
 
-🎯 Business Objective
+---
 
-Identify loss-making segments
+## 🎯 Business Objective
+- Identify loss-making segments
+- Analyze discount impact on profit margins
+- Evaluate regional profitability performance
+- Provide actionable recommendations for margin optimization
 
-Analyze discount impact on profit
+---
 
-Evaluate regional margin performance
+## 🛠 Tools & Technologies
+- **SQL (SQLite)** – Advanced queries, CTEs, Window Functions
+- **Python (Pandas, Matplotlib)** – Data processing & analysis
+- **Power BI** – Executive dashboard visualization
+- **DAX** – KPI & margin calculations
 
-Provide actionable recommendations for profit optimization
+---
 
-🛠 Tools & Technologies
+## 📊 Dataset Description
+The dataset contains multi-region retail transactional data including:
+- Region
+- Category
+- Sub-Category
+- Sales
+- Quantity
+- Discount
+- Profit
 
-SQL (SQLite) – Advanced queries, CTEs, Window Functions
+The analysis focuses on revenue performance, margin behavior, and discount sensitivity.
 
-Python (Pandas, Matplotlib) – Data processing & analysis
+---
 
-Power BI – Executive dashboard visualization
+## 📈 Key Analysis Performed
 
-DAX – KPI calculations
+### 1️⃣ Revenue & Profit Overview
+- Calculated total revenue, total profit, and overall profit margin
+- Identified uneven profitability across business segments
 
-📊 Key Analysis Performed
-1️⃣ Revenue & Margin Overview
+### 2️⃣ Revenue Leakage Detection
+- Detected loss-making sub-categories
+- Analyzed negative margin contributors
 
-Calculated total revenue, total profit, and overall margin
+### 3️⃣ Discount Sensitivity Analysis
+- Evaluated relationship between discount levels and profit
+- Identified margin erosion beyond critical discount threshold
 
-Identified uneven profitability across regions
+### 4️⃣ Regional Margin Intelligence
+- Compared revenue contribution vs profitability efficiency
+- Identified low-margin high-revenue regions
 
-2️⃣ Revenue Leakage Detection
+---
 
-Detected loss-making sub-categories
+## 🚀 Key Business Insights
+- Certain sub-categories consistently generate negative profits.
+- Profit margin declines sharply beyond ~20% discount threshold.
+- Regional margin variation suggests pricing inefficiencies.
+- Revenue concentration indicates opportunity for strategic optimization.
 
-Identified profit decline beyond discount threshold
+---
 
-3️⃣ Discount Sensitivity Analysis
+## 📊 Executive Dashboard
 
-Analyzed relationship between discount levels and profit
+You can view the interactive Power BI dashboard here:
 
-Found margin erosion at aggressive discount levels
+👉 **[View Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiNTRiZjY4ODgtODE3OS00YmI4LWIxMjYtZTJjZTJiNjY4M2FiIiwidCI6IjkyZWIyODQzLTc2YzItNGU4NC1hNzlhLWNiNDBhMzIxODg0NiJ9)**
 
-4️⃣ Regional Performance Comparison
+---
 
-Compared revenue contribution vs margin efficiency
+## 📌 Strategic Recommendations
+- Implement discount cap policy beyond identified threshold
+- Optimize pricing for loss-making sub-categories
+- Re-evaluate promotional strategies in low-margin regions
+- Prioritize high-margin categories for scalable growth
 
-Identified low-margin high-revenue regions
+**Estimated Profitability Improvement Potential: 8–12%**
 
-🚀 Key Business Insights
+---
 
-Certain sub-categories consistently generate negative profit.
+## 🧠 Business Impact
+This project demonstrates how structured SQL analysis combined with executive visualization can uncover hidden margin inefficiencies and support data-driven decision-making.
 
-Profit margin declines sharply beyond ~20% discount threshold.
+---
 
-Regional margin variation suggests pricing inefficiencies.
+## 👨‍💻 Author
+Dixit Raghuvanshi  
+Aspiring Data Analyst | SQL | Python | Power BI
 
-Revenue concentration indicates opportunity for strategic optimization.
-
-📈 Strategic Recommendations
-
-Implement discount cap policy above identified threshold
-
-Optimize pricing for loss-making sub-categories
-
-Re-evaluate promotional strategy in low-margin regions
-
-Prioritize high-margin categories for scalable growth
-
-Estimated profitability improvement potential: 8–12%
-
-📊 Dashboard Preview
-
-(Insert 2–3 screenshots here)
